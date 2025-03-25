@@ -17,16 +17,17 @@
             --texte-secondaire: #A0A0A0;
             --separateur: #333;
         }
-        
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
+            background-color: var(--primary);
+            color: var(--white);
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            text-align: center;
+            margin: 0;
             padding: 20px;
-            line-height: 1.6;
-            color: var(--texte-primaire);
-            background-color: var(--fond);
             min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         
         .header {
